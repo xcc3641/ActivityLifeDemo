@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.Activity;
+package com.hugo.demo.activitydemo.ActivityChapter;
 
 import android.os.Bundle;
 import android.widget.Button;

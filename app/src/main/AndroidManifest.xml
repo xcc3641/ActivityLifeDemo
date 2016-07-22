@@ -9,17 +9,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".ActivityChapter.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.OtherActivity"/>
+        <activity android:name=".ActivityChapter.OtherActivity"/>
         <activity
-            android:name=".Activity.DialogActivity"
+            android:name=".ActivityChapter.DialogActivity"
             android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity android:name=".FragmentChapter.HostActivity"/>
+
     </application>
 
 </manifest>
