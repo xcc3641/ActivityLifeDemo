@@ -1,6 +1,7 @@
 package com.hugo.demo.activitydemo.ActivityChapter;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import com.hugo.demo.activitydemo.R;
 
@@ -13,13 +14,17 @@ import com.hugo.demo.activitydemo.R;
  */
 public class OtherActivity extends BaseActivity {
     Button content;
-
+    Button btFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         content = (Button) findViewById(R.id.bt_content);
+        assert content != null;
         content.setText("第二个活动已经启动");
+        btFragment = (Button) findViewById(R.id.bt_fragment);
+        assert btFragment != null;
+        btFragment.setVisibility(View.GONE);
     }
 
 }
