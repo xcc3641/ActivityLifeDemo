@@ -14,7 +14,7 @@ import com.hugo.demo.activitydemo.R;
  * GitHub: https://github.com/xcc3641
  * Info:
  */
-public class HostActivity extends BaseActivity {
+public class FragmentHostActivity extends BaseActivity {
     private Button showHide;
     private Button replace;
     private FrameLayout frameLayout;

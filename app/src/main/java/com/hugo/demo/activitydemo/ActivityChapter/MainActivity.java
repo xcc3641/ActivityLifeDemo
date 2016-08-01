@@ -6,14 +6,13 @@ import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import com.hugo.demo.activitydemo.FragmentChapter.HostActivity;
 import com.hugo.demo.activitydemo.R;
 
 public class MainActivity extends BaseActivity {
 
     Button content;
     Button btShowDialog;
-    Button btFragment;
+
     CheckBox checkbox;
 
     @Override
@@ -39,14 +38,6 @@ public class MainActivity extends BaseActivity {
                 } else {
                     new AlertDialog.Builder(MainActivity.this).setMessage("这里是普通的 Dialog").show();
                 }
-            }
-        });
-
-        btFragment = (Button) findViewById(R.id.bt_fragment);
-        btFragment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, HostActivity.class));
             }
         });
 

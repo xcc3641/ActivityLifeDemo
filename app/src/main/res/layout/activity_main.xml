@@ -21,7 +21,8 @@
         <CheckBox
             android:id="@+id/checkbox"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="勾选启动 Activity dialog"/>
     </LinearLayout>
 
 
@@ -31,9 +32,4 @@
         android:layout_height="wrap_content"
         />
 
-    <Button
-        android:id="@+id/bt_fragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment 篇章"/>
 </LinearLayout>

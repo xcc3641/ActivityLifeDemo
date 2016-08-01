@@ -18,10 +18,13 @@ import com.hugo.demo.activitydemo.util.KLog;
  */
 public class BaseFragment extends Fragment {
 
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         KLog.d(getClass().getSimpleName(), "onAttach");
+
+
     }
 
     @Nullable
