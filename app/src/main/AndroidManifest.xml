@@ -32,6 +32,8 @@
             android:taskAffinity="com.hugo.demo.singleTask"/>
         <activity android:name=".dLaunchChapter.TwoActivity"
             />
+
+
     </application>
 
 </manifest>
