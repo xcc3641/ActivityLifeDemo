@@ -13,4 +13,5 @@
         android:text="Ohh~"
         android:textSize="32sp"
         />
+
 </LinearLayout>

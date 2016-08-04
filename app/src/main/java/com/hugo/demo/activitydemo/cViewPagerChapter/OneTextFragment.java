@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.ViewPagerChapter;
+package com.hugo.demo.activitydemo.cViewPagerChapter;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.hugo.demo.activitydemo.FragmentChapter.BaseFragment;
+import com.hugo.demo.activitydemo.bFragmentChapter.BaseFragment;
 import com.hugo.demo.activitydemo.R;
 
 /**

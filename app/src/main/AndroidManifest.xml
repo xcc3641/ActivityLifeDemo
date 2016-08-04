@@ -18,15 +18,20 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ActivityChapter.MainActivity"/>
-        <activity android:name=".ActivityChapter.OtherActivity"/>
+        <activity android:name=".aActivityChapter.MainActivity"/>
+        <activity android:name=".aActivityChapter.OtherActivity"/>
         <activity
-            android:name=".ActivityChapter.DialogActivity"
+            android:name=".aActivityChapter.DialogActivity"
             android:theme="@style/Theme.AppCompat.Dialog"/>
-        <activity android:name=".FragmentChapter.FragmentHostActivity"/>
-        <activity android:name=".ViewPagerChapter.ViewPagerHostActivity">
+        <activity android:name=".bFragmentChapter.FragmentHostActivity"/>
+        <activity android:name=".cViewPagerChapter.ViewPagerHostActivity"/>
 
-        </activity>
+        <activity
+            android:name=".dLaunchChapter.OneActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.hugo.demo.singleTask"/>
+        <activity android:name=".dLaunchChapter.TwoActivity"
+            />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.FragmentChapter;
+package com.hugo.demo.activitydemo.bFragmentChapter;
 
 import android.content.Context;
 import android.os.Bundle;

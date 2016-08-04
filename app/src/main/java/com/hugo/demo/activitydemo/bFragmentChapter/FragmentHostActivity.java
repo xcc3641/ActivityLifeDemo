@@ -1,10 +1,10 @@
-package com.hugo.demo.activitydemo.FragmentChapter;
+package com.hugo.demo.activitydemo.bFragmentChapter;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
-import com.hugo.demo.activitydemo.ActivityChapter.BaseActivity;
+import com.hugo.demo.activitydemo.aActivityChapter.BaseActivity;
 import com.hugo.demo.activitydemo.R;
 
 /**

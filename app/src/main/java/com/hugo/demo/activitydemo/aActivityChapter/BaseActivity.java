@@ -1,5 +1,6 @@
-package com.hugo.demo.activitydemo.ActivityChapter;
+package com.hugo.demo.activitydemo.aActivityChapter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import com.hugo.demo.activitydemo.R;
@@ -21,6 +22,7 @@ public  class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text);
         KLog.d(getClass().getSimpleName(), "onCreate");
+        getSupportActionBar().setTitle(getClass().getSimpleName());
     }
 
     @Override
@@ -28,6 +30,12 @@ public  class BaseActivity extends AppCompatActivity {
         super.onStart();
 
         KLog.d(getClass().getSimpleName(), "onStart");
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        KLog.d(getClass().getSimpleName(),"onNewIntent");
     }
 
     @Override

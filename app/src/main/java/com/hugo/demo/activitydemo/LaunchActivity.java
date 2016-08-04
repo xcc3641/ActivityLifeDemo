@@ -6,9 +6,10 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import com.hugo.demo.activitydemo.ActivityChapter.MainActivity;
-import com.hugo.demo.activitydemo.FragmentChapter.FragmentHostActivity;
-import com.hugo.demo.activitydemo.ViewPagerChapter.ViewPagerHostActivity;
+import com.hugo.demo.activitydemo.aActivityChapter.MainActivity;
+import com.hugo.demo.activitydemo.bFragmentChapter.FragmentHostActivity;
+import com.hugo.demo.activitydemo.cViewPagerChapter.ViewPagerHostActivity;
+import com.hugo.demo.activitydemo.dLaunchChapter.OneActivity;
 
 /**
  * Created by HugoXie on 16/8/1.
@@ -21,6 +22,7 @@ public class LaunchActivity extends AppCompatActivity implements View.OnClickLis
     private Button btActivity;
     private Button btFragment;
     private Button btViewpager;
+    private Button btLaunchmode;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -29,10 +31,12 @@ public class LaunchActivity extends AppCompatActivity implements View.OnClickLis
         btActivity = (Button) findViewById(R.id.bt_activity);
         btFragment = (Button) findViewById(R.id.bt_fragment);
         btViewpager = (Button) findViewById(R.id.bt_viewpager);
+        btLaunchmode = (Button) findViewById(R.id.bt_launchmode);
 
         btActivity.setOnClickListener(this);
         btFragment.setOnClickListener(this);
         btViewpager.setOnClickListener(this);
+        btLaunchmode.setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +50,9 @@ public class LaunchActivity extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.bt_viewpager:
                 startActivity(new Intent(this, ViewPagerHostActivity.class));
+                break;
+            case R.id.bt_launchmode:
+                startActivity(new Intent(this, OneActivity.class));
                 break;
         }
     }

@@ -24,4 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ViewPager 篇章"/>
+
+    <Button
+        android:id="@+id/bt_launchmode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LaunchMode 篇章"/>
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.ActivityChapter;
+package com.hugo.demo.activitydemo.aActivityChapter;
 
 /**
  * Created by HugoXie on 16/7/21.

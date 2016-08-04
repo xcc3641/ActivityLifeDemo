@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.ViewPagerChapter;
+package com.hugo.demo.activitydemo.cViewPagerChapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

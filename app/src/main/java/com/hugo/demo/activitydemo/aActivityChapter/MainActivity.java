@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.ActivityChapter;
+package com.hugo.demo.activitydemo.aActivityChapter;
 
 import android.content.Intent;
 import android.os.Bundle;

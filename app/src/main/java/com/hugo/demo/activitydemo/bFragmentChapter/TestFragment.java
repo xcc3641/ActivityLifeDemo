@@ -1,4 +1,4 @@
-package com.hugo.demo.activitydemo.FragmentChapter;
+package com.hugo.demo.activitydemo.bFragmentChapter;
 
 /**
  * Created by HugoXie on 16/7/22.
