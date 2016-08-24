@@ -19,9 +19,11 @@ public class OneActivity extends BaseLaunchActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent  = new Intent(OneActivity.this,TwoActivity.class);
+                Intent intent  = new Intent(OneActivity.this,OneActivity.class);
                 startActivity(intent);
             }
         });
     }
+
+
 }

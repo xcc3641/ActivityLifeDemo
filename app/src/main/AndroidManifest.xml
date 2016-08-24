@@ -28,8 +28,9 @@
 
         <activity
             android:name=".dLaunchChapter.OneActivity"
-            android:launchMode="singleTask"
+            android:launchMode="singleTop"
             android:taskAffinity="com.hugo.demo.singleTask"/>
+
         <activity android:name=".dLaunchChapter.TwoActivity"
             />
 
